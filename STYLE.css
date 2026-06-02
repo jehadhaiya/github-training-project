@@ -1,6 +1,15 @@
 /* إعدادات الخطوط والتنسيق العام */
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap');
 
+body {
+  font-family: Arial;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
 * {
     margin: 0;
     padding: 0;
