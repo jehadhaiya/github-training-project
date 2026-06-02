@@ -1,15 +1,5 @@
 /* إعدادات الخطوط والتنسيق العام */
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap');
-
-body {
-  font-family: Arial;
-  background-color: #f4f4f4;
-  text-align: center;
-}
-
-h1 {
-  color: #333;
-}
 * {
     margin: 0;
     padding: 0;
@@ -18,10 +8,22 @@ h1 {
 }
 
 body {
-    background-color: #f4f7f6;
-    color: #333;
-    line-height: 1.6;
+  background-color: #f0f0f0;
+  font-family: Arial;
+  text-align: center;
+  line-height: 1.6;
 }
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
 
 /* --- شريط التنقل (Navbar) --- */
 .navbar {
